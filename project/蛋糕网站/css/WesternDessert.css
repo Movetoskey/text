@@ -1,0 +1,338 @@
+	/* 实现全屏 */
+	html,body{
+		height: 100%;
+		overflow: hidden;
+	}
+
+	/* 全屏 */
+	.wrap{
+		position: relative;
+		top: 0;
+		left: 0;
+		height: 100%;
+	}
+
+	.headCon{
+		height: 150px;
+	}
+	
+	/* 全屏 */
+	.wrap>div{
+		width: 100%;
+		height: 100%;
+	}
+
+
+	
+	ul.nav{
+		width: 50px;
+		height: 300px;
+		position: fixed;
+		top: 100px;
+		left: 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+	}
+	
+	ul.nav>li{
+		width: 50px;
+		height: 50px;
+		text-align: center;
+		line-height: 50px;
+		background: #ff3478;
+		color: white;
+	}
+	
+	ul.nav>.color{
+		background: #fb0000;
+	}
+	
+	.jianbianfuqin{
+		width: 100%;
+	}
+	
+	.wrap .head .jianbian{
+		width: 1518px;
+		height: 500px;
+		margin: 0 auto;
+		position: relative;
+	}
+	
+	.wrap .head .jianbian>img{
+		width:1518px;
+		height: 500px;
+		position:absolute;
+		top:0px;
+		left: 0px;
+	}
+	
+	.wrap .head .jianbian>img{
+		margin: 0 auto;
+	}
+	
+	.wrap .head .jianbian .img1{
+		opacity: 1;
+	}
+	
+	.wrap .head .jianbian .img2,.img3{
+		opacity: 0;
+	}
+	
+	.wrap .french .fr_one{
+		width: 1160px;
+		height: 100px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.wrap .french .fr_one>div{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 150px;
+		height: 40px;
+	}
+	
+	.wrap .french .fr_one>div>p{
+		font-size: 30px;
+		color: #fb0000;
+	}
+	
+	.wrap .french .fr_one>div>span{
+		color: #4c4c4c;
+		font-size: 24px;
+	}
+	
+	.wrap .french .fr_one a{
+		font-size: 18px;
+		color: #4c4c4c;
+	}
+	
+	.wrap .french .fr_two{
+		width: 1160px;
+		height: 600px;
+		/* background: #00FF00; */
+		margin: 0 auto;
+	}
+	
+	.wrap .italy .it_one{
+		width: 1160px;
+		height: 100px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.wrap .italy .it_one>div{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		width: 150px;
+		height: 40px;
+	}
+	
+	.wrap .italy .it_one>div>p{
+		font-size: 30px;
+		color: #fb0000;
+	}
+	
+	.wrap .italy .it_one>div>span{
+		color: #4c4c4c;
+		font-size: 24px;
+	}
+	
+	.wrap .italy .it_one a{
+		font-size: 18px;
+		color: #4c4c4c;
+	}
+	
+	.wrap .italy .it_two{
+		width: 1160px;
+		height: 600px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+	}
+	
+	.wrap .italy .it_two .it_two_l{
+		width: 384px;
+		height: 395px;
+		background: url(../images/WesternDessert/Italy_03.png) center no-repeat;
+		position: relative;
+	}
+	
+	.wrap .italy .it_two .it_two_l>div{
+		width: 384px;
+		height: 85px;
+		background: rgba(255,255,255,0.7);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.wrap .italy .it_two .it_two_l>div>p{
+		font-size: 18px;
+		color: #4c4c4c;
+	}
+	
+	.wrap .italy .it_two .it_two_l>div>a{
+		display: block;
+		width: 70px;
+		height: 24px;
+		border-radius: 8px;
+		background: #fb0000;
+		color: #fff;
+		text-align: center;
+	}
+	
+	.wrap .italy .it_two .it_two_r{
+		width: 760px;
+		height: 400px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	
+	
+	.wrap .italy .it_two .it_two_r>div{
+		width: 372px;
+		height: 190px;
+		background-size: 372px 190px;
+		position: relative;
+	}
+	
+	.wrap .italy .it_two .it_two_r>div>div{
+		text-align: center;
+		width: 372px;
+		height: 76px;
+		background: rgba(255,255,255,0.7);
+		position: absolute;
+		left: 0;
+		bottom: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.wrap .italy .it_two .it_two_r>div>div>p{
+		font-size: 18px;
+		color: #4c4c4c;
+	}
+	
+	.wrap .italy .it_two .it_two_r>div>div>a{
+		display: block;
+		width: 70px;
+		height: 24px;
+		border-radius: 8px;
+		background: #fb0000;
+		color: #fff;
+		text-align: center;
+	}
+	
+	.wrap .italy .it_two .it_two_r .qianceng{
+		background: url(../images/WesternDessert/Italy_06.jpg) no-repeat center;
+	}
+	
+	
+	
+	
+	
+	
+	.fr_two>ul{
+		width: 1170px;
+		height: 910px;
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+	}
+	
+	.fr_two>ul>li{
+		width: 290px;
+		height: 450px;
+		margin: 1px;
+	}
+	
+	.fr_two>ul>li>a{
+		display: inline-block;
+		width: 290px;
+		height: 400px;
+		background-size:100%;
+	}
+	
+	.fr_two>ul>li .gwc{
+		width: 25px;
+		height: 24px;
+		background: url(../images/index/sprite.png) no-repeat -643px 0;
+		margin-left: 128px;
+	}
+	
+	.fr_two>ul>li>a:hover{
+		background-size:104%;
+		transition: all 1s;
+	}
+	
+	.fr_two .baxi{
+		background: url(../images/summer/bing01_03.jpg) no-repeat;
+	}
+	
+	.fr_two .yili{
+		background: url(../images/summer/bing01_05.jpg) no-repeat;
+	}
+	
+	.fr_two .mengniu{
+		background: url(../images/summer/bing01_07.jpg) no-repeat;
+	}
+	
+	.fr_two .DQ{
+		background: url(../images/summer/bing01_09.jpg) no-repeat;
+	}
+	
+	
+	.fr_two .xinxi{
+		width: 130px;
+		height: 50px;
+		display: flex;
+		justify-content: space-between;
+		margin: 0 auto;
+	}
+	
+	.fr_two .xinxi>.xx_left{
+		width: 20px;
+		height: 45px;
+		background: #fb0000;
+		color: #fff;
+		text-align: center;
+	}
+	
+	.fr_two>ul>li .xinxi>.xx_right{
+		width: 100px;
+		height: 50px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+	}
+	
+	.fr_two>ul>li .xinxi>.xx_right p{
+		font-size: 14px;
+		color: #4c4c4c;
+	}
+	
+	.fr_two>ul>li .xinxi>.xx_right span{
+		font-size: 14px;
+		color: #fb0000;
+		
+	}
+	
+	

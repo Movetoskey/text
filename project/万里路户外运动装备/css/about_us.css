@@ -1,0 +1,250 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+/* 页眉 */
+div.header{
+    width: 100%;
+    height: 29.6px;
+    background: #4bb433;
+}
+div.header-top{
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+}
+div.header-top p{
+    height: 29.6px;
+    flex: 1;
+    margin: 0 15px;
+    font:14px 微软雅黑;
+    color:#fff;
+    line-height: 29.6px;
+}
+div.header-top p:nth-child(2){
+    text-align: right;
+}
+
+div.header-top p:nth-child(2) span{
+    width: 20px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+}
+div.header-top p:nth-child(2) span img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    left: -5px;
+}
+/*页眉 */
+.nav-top{
+    width: 1170px;
+    height: 71px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-top>a{
+    width: 230px;
+    height: 65.55px;
+    padding: 3px 15px;
+}
+.nav-top>a>img{
+    width: 134px;
+    height: 43.55px;
+    padding: 8px;
+}
+.nav-top ul{
+    display: flex;
+}
+
+.nav-top ul li{
+    line-height: 71px;
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent;
+}
+.nav-top ul li a{
+    padding: 24px;
+    color: #000;
+    font:18px 微软雅黑;
+    box-sizing: border-box;  
+}
+.nav-top ul li:hover{
+    border-bottom: 3px solid #4bb433;
+}
+.nav-top ul li a:hover{
+    color: #4bb433;  
+}
+.header-bg img{
+    width: 100%;
+    height: 296.08px;
+}
+
+
+.con-pro{
+    width: 100%;
+    height: 648.6px;
+    padding: 74.8px 0;
+}
+
+.titles{
+    width: 1170px;
+    height: 85px;
+    margin: 0 auto;
+    text-align: center;
+    color: #4bb433;
+}
+.titles h2{
+    font-size: 30px;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.titles span{
+    display: inline-block;
+    height: 40.8px;
+}
+/* 公司简介 */
+
+.about-bg{
+    width: 1140px;
+    margin: 0 auto;
+    display: flex;
+}
+.con-pro .about-bg .title-about{
+    width: 544px;
+    height: 540px;
+    padding: 0 15px;
+}
+
+.con-pro .about-bg .title-about img{
+    width: 540px;
+    height: 540px;
+}
+
+.con-pro .about-bg .about-content{
+    width: 540px;
+    height: 496px;
+    padding: 0 15px;
+}
+
+.con-pro .about-bg .about-content h4{
+    color: #4bb433;
+    font: 20px 微软雅黑;
+    margin: 10px 0;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.con-pro .about-bg .about-content p{
+    font: 16px 微软雅黑;
+    color: #333;
+    text-indent:30px;
+    line-height: 30px;
+}
+.con-pro .about-bg .about-content p:hover{
+    color:#4bb433;
+}
+
+.management-idea{
+    width: 100%;
+    height: 315.8px;
+    padding: 74.7px 0;
+    background: url(../img/aboutus/abbj.jpg);
+}
+
+.management-idea .idea-tit{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.management-idea .idea-tit p{
+    font: 16px 微软雅黑;
+    color: #333;
+    padding: 0 15px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.management-idea .idea-tit p:hover{
+    color:#4bb433
+}
+
+.service-gua{
+    width: 100%;
+    height: 686.3px;
+    padding: 74.7px 0;
+}
+
+.service-gua .ser-bg{
+    width: 1170px;
+    margin: 0 auto;
+}
+.service-gua .ser-bg img{
+    height: 577.7px;
+}
+
+/* 页脚 */
+hr{
+    border:1px solid;
+    color: #4bb433;
+}
+.index-bg01{
+    background: url(../img/index/bg01.jpg);
+}
+.row{
+    width: 1446px;
+    height: 273.33px;
+    margin: 0 auto;
+    text-align: center
+}
+.row a .top{
+    display:block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background: #4bb433;
+    margin: 0 auto;
+}
+.row .row-nav{
+    width: 952.9px;
+    height: 113.33px;
+    display: flex;
+    justify-content: center;
+    margin: 22px auto 10px;
+    padding: 0 15px;
+}
+
+.row .row-nav li{
+    width: 113.33px;
+}
+
+.row .row-nav li a{
+    width: 113.33px;
+    height: 25.6px;
+    display: block;
+    margin-top: 44px;
+    font:18px 微软雅黑;
+    color: #333;
+}
+
+.row .row-nav li a:hover{
+    color: #4bb433;
+}
+
+.row .row-nav li a .wx{
+    width: 113.33px;
+    height: 113.33px;
+    margin-top: -44px;
+}
+
+.row p{
+    font: 14px 微软雅黑;
+    color: #666;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,75 @@
+.wrap{
+	margin: 0 auto;
+	height: 600px;
+	width: 1522px;
+	position: relative;
+}
+.wrap>img{
+	margin: 0 auto;
+	width: 100%;
+	position: relative;
+}
+.loginbox{
+	text-align: center;
+	margin: 0 auto;
+	width: 350px;
+	height: 350px;
+	border-radius: 20px;
+	position: absolute;
+	top: 30%;
+	bottom: 30%;
+	left: 40%;
+	right: 40%;
+	background-color: rgba(50,50,50,0.2);
+}
+.loginbox>h2{
+	margin: 0 auto;
+	width: 300px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	color: rgba(0,0,0,0.7);
+	border-bottom: 1px solid rgba(41,161,148,1);
+}
+.loginbox>.phone{
+	margin-top: 20px;
+	height: 35px;
+	width: 300px;
+}
+.loginbox>.passcode{
+	margin-top: 20px;
+	width: 185px;
+	height: 35px;
+}
+.loginbox>span{
+	display: inline-block;
+	width: 110px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #29A194;
+	color: #fff;
+	margin-left: 5px;
+}
+.loginbox>.btn{
+	width: 300px;
+	height: 35px;
+	line-height: 35px;
+	color: #fff;
+	font-size: 18px;
+	background-color: #29A194;
+	margin: 20px auto;
+}
+.loginbox>.otherways{
+	width: 300px;
+	margin: 20px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.loginbox>.otherways>p{
+	text-align: left;
+}
+.loginbox>.otherways>ul>li{
+	width: 30px;
+	height: 30px;
+	overflow: hidden;
+}

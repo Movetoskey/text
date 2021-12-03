@@ -1,0 +1,103 @@
+.wrap{
+	position: relative;
+	width: 1522px;
+	height: 1500px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+.wrap>div{
+	/* position: absolute; */
+	top: 0px;
+}
+.aboutdesign{
+	width: 100%;
+	height: 500px;
+	background-color: #EBEBEB;
+	display: flex;
+	align-items: center;
+}
+.aboutdesign>.left{
+	width: 760px;
+	text-align: center;
+}
+.aboutdesign>.left>.aEnglish{
+	font-family: Oswald;
+	font-size: 26px;
+	font-weight: normal;
+	font-style: normal;
+	color: #333333;
+}
+.aboutdesign>.left>.aChinese{
+	font-family: 微软雅黑;
+	font-size: 32px;
+	font-weight: bold;
+	font-style: normal;
+	color: #333333;
+	padding: 0 0 10px 0;
+	display: block;
+	padding: 0 0 10px 0;
+	vertical-align: bottom;
+}
+.aboutdesign>.left>.aAD{
+	font-family: 微软雅黑;
+	font-size: 18px;
+	font-weight: normal;
+	font-style: normal;
+	color: #333333;
+	display: block;
+	vertical-align: bottom;
+}
+.aboutdesign>.left>.msg{
+	height: 100px;
+}
+.aboutdesign>.left>button{
+	font-size: 14px;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-width: 2px;
+	border-color: #29a194;
+	background-color: #29a194;
+	color: #fff;
+	border: 0px;
+	border-radius: 30px;
+	
+}
+.aboutdesign>.left>button>a{
+	color: #fff;
+}
+.aboutdesign>.right{
+	width: 760px;
+}
+.aboutdesign>.right>img{
+	width: 760px;
+}
+.abouttitle{
+	width: 1522px;
+	height: 230px;
+	background-color: #fff;
+	text-align: center;
+	padding-top: 50px;
+}
+.designerbox{
+	width: 100%;
+	height: 620px;
+	background-color: #fff;
+}
+.designerbox>.aboutteam{
+	background-color: #fff;
+	width: 1330px;
+	height: 500px;
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+}
+.aboutteam>.person>p{
+	width: 320px;
+}
+.aboutteam>.person>p>span{
+	padding-left: 15px;
+	color: grey;
+}

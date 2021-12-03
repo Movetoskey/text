@@ -1,0 +1,479 @@
+.headCon{
+	height: 150px;
+}
+
+.headCon>.headCon_two{
+	margin-top: 20px;
+}
+
+.headCon>.headCon_two>ul>li>.color{
+	color: #4c4c4c;;
+}
+
+hr{
+	width: 1158px;
+	margin: 0 auto;
+}
+
+.contentCon{
+	width: 1160px;
+	height: 976px;
+	margin: 0 auto;
+}
+
+.contentCon>ul{
+	width: 1160px;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contentCon>ul .left{
+	width: 202px;
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	font-size: 22px;
+	color: #4c4c4c;
+}
+
+.contentCon>ul .right{
+	width: 280px;
+	height: 24px;
+}
+
+.contentCon>ul .right>ul{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contentCon>ul .right>ul>li>a{
+	width: 65px;
+	height: 18px;
+	border-right: 1px solid #d2d2d2;
+	font-size: 18px;
+	color: #4c4c4c;
+}
+
+.contentCon .show{
+	width: 1160px;
+	height: 440px;
+	display: flex;
+	justify-content: space-evenly;
+	position: relative;
+}
+
+.contentCon .show .left{
+	width: 100px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.contentCon .show .left>div{
+	width: 60px;
+	height: 60px;
+	box-sizing: border-box;
+	transition: all 1s;
+	background-size: 100%;
+}
+
+.contentCon .show .left .pic1{
+	background: url(../images/shopdetails/smalldetails0.jpg) center no-repeat;
+	
+}
+
+.contentCon .show .left .pic2{
+	background: url(../images/shopdetails/smalldetails1.jpg) center no-repeat;
+	
+}
+
+.contentCon .show .left .pic3{
+	background: url(../images/shopdetails/smalldetails2.jpg) center no-repeat;
+	
+}
+
+.contentCon .show .left .pic4{
+	background: url(../images/shopdetails/smalldetails3.jpg) center no-repeat;
+	
+}
+
+.contentCon .show .left>.checked{
+	background-size: 110%;
+}
+
+
+.contentCon .show .mid{
+	width: 400px;
+	height: 400px;
+	background: #aaaa7f;
+	position: relative;
+	display: flex;
+}
+
+.contentCon .show .mid img{
+	width: 400px;
+	height: 400px;
+}
+
+.contentCon .show .mid .block{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 200px;
+	height: 200px;
+	background: rgba(255, 52, 120,0.3);
+	display: none;
+}
+
+/*大图*/
+
+.contentCon .show .resize{
+	position: absolute;
+	top:0;
+	left: 400px;
+}
+
+.contentCon .show .bigPic{
+	position: relative;
+	overflow: hidden;
+	width: 400px;
+	height: 400px;
+	right: 0px;
+	top: 0px;
+	display: none;
+}
+
+.contentCon .show .bigPic img{
+	position:absolute;
+	top: 0;
+	left: 0;
+	width: 800px;
+	height: 800px;
+}
+
+.contentCon .show .right{
+	width: 476px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+}
+
+.contentCon .show .right>p{
+	font-size: 24px;
+	color: #4c4c4c;
+}
+
+.contentCon .show .right .canshu{
+	width: 476px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.contentCon .show .right .canshu .qian{
+	width: 476px;
+	height: 60px;
+	text-align: left;
+	line-height: 60px;
+}
+
+.contentCon .show .right .canshu .qian span{
+	font-size: 24px;
+	color: #fb0000;
+}
+
+.contentCon .show .right .canshu .qian i{
+	font-size: 30px;
+	color: #fb0000;
+}
+
+.contentCon .show .right .canshu .qian em{
+	font-size: 14px;
+	color: #4c4c4c;
+}
+
+.contentCon .show .right .canshu .youhui{
+	width: 476px;
+	height: 26px;
+}
+
+.contentCon .show .right .canshu .youhui>a{
+	display: inline-block;
+}
+
+.contentCon .show .right .canshu .youhui .lingquan{
+	width: 54px;
+	height: 26px;
+	background: #fb0000;
+	color: #fff;
+	line-height: 26px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 4px;
+}
+
+.contentCon .show .right .canshu .youhui .lingqu{
+	font-size: 16px;
+	color: #fb0000;
+	margin-left: 20px;
+}
+
+.contentCon .show .right .canshu .fuwu{
+	width: 476px;
+	height: 21px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.contentCon .show .right .canshu .fuwu span{
+	font-size: 16px;
+	color: #4c4c4c;
+}
+
+.contentCon .show .right .canshu .guige{
+	width: 476px;
+	height: 100px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.contentCon .show .right .canshu .guige>span{
+	font-size: 14px;
+	color: #4c4c4c;
+	margin-top: 8px;
+}
+
+.contentCon .show .right .canshu .guige>div{
+	width: 270px;
+	height: 100px;
+	margin-left: 30px;
+}
+
+.contentCon .show .right .canshu .guige>div>a{
+	display: inline-block;
+	width: 84px;
+	height: 30px;
+	line-height: 30px;
+	margin: 5px 0px;
+	border: 1px solid #d2d2d2;
+	text-align: center;
+	color: #4c4c4c;
+	font-size: 14px;
+}
+
+.contentCon .show .right .canshu .guige>div>a.guigeActive{
+	border: 1px solid red;
+}
+
+.contentCon .show .right .canshu .num{
+	width: 476px;
+	height: 34px;
+	display: flex;
+}
+
+.contentCon .show .right .canshu .num>p{
+	font-size: 14px;
+	color: #4c4c4c;
+	margin-top: 5px;
+}
+
+.contentCon .show .right .canshu .num input{
+	border: 0px;
+	outline: none;
+	width: 32px;
+	height: 32px;
+	border-top: 1px solid #d2d2d2;
+	border-bottom: 1px solid #d2d2d2;
+	text-align: center;
+}
+
+.contentCon .show .right .canshu .num>div{
+	width: 26px;
+	height: 32px;
+	font-size: 24px;
+	color: #999;
+	border: 1px solid #d2d2d2;
+	text-align: center;
+	line-height: 32px;
+}
+
+.contentCon .show .right .canshu .num .reduce{
+	margin-left: 30px;
+}
+
+.contentCon .show .right .canshu .goumai{
+	width: 476px;
+	height: 40px;
+	display: flex;
+}
+
+.contentCon .show .right .canshu .goumai button{
+	border: 0px;
+}
+
+.contentCon .show .right .canshu .goumai .buy{
+	width: 132px;
+	height: 40px;
+	background: #fb0000;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 8px;
+}
+
+.contentCon .show .right .canshu .goumai .buy>a{
+	color: #fff;
+}
+
+.contentCon .show .right .canshu .goumai .car{
+	width: 132px;
+	height: 40px;
+	border: 1px solid #fb0000;
+	color: #fb0000;
+	line-height: 40px;
+	text-align: center;
+	font-size: 18px;
+	border-radius: 8px;
+	margin-left: 10px;
+}
+
+.contentCon .show .right .canshu .goumai .car>a{
+	color: #fb0000;
+}
+
+.contentCon .show .right .canshu .goumai .love{
+	width: 38px;
+	height: 36px;
+	border: 1px solid #d2d2d2;
+	background: white;
+	text-align: center;
+	line-height: 44px;
+	margin-left: 10px;
+}
+
+.contentCon .details{
+	width: 1160px;
+	height: 430px;
+	/* background: #ff0000; */
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.contentCon .details .one{
+	display: flex;
+}
+
+.contentCon .details .one>div>p{
+	font-size: 20px;
+	color: #4c4c4c;
+}
+
+.contentCon .details .one>p{
+	font-size: 24px;
+	color: #fb0000;	
+	margin-left: 10px;
+}
+
+.contentCon .details .one>div>span{
+	display: block;
+	width: 65px;
+	height: 3px;
+	background: #fb0000;
+}
+
+.contentCon .details .one>span{
+	width: 886px;
+	height: 1px;
+	background: #d2d2d2;
+	align-self: flex-end;
+}
+
+.contentCon .details .one{
+	width: 1160px;
+	height: 32px;
+	/* background: #005500; */
+}
+
+.contentCon .details .pinming,.chicun,.fuwu{
+	width: 1160px;
+	height: 77px;
+	border-bottom: 1px dotted #d7d7d7;
+}
+
+.contentCon .details .pinming .pm_short{
+	width: 800px;
+	height: 77px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contentCon .details .pinming .pm_short .pm_left,.pm_right>p{
+	font-size: 18px;
+	color: #4c4c4c;
+}
+
+.contentCon .details .chicun .pm_short{
+	width: 800px;
+	height: 77px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contentCon .details .chicun .pm_short .pm_left,.pm_right>p{
+	font-size: 18px;
+	color: #4c4c4c;
+}
+
+.contentCon .details .chicun .pm_short .pm_right{
+	margin: 0px 10px;
+}
+
+.contentCon .details .fuwu .pm_short{
+	width: 800px;
+	height: 77px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.contentCon .details .fuwu .pm_short .pm_left,.pm_right>p{
+	font-size: 18px;
+	color: #4c4c4c;
+}
+
+.contentCon .details .fuwu .pm_short .pm_right{
+	margin: 0px -70px;
+}
+
+.contentCon .details .peiliao{
+	width: 1160px;
+	height: 144px;
+}
+
+.contentCon .details .peiliao .pm_short{
+	width: 800px;
+	height: 144px;
+	margin: 0 auto;
+}
+
+.contentCon .details .peiliao .pm_short .p1{
+	font-size: 18px;
+	color: #4c4c4c;
+}
+
+.contentCon .details .peiliao .pm_short .p2{
+	font-size: 18px;
+	color: #4c4c4c;
+}

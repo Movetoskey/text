@@ -1,0 +1,352 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+/* 页眉 */
+div.header{
+    width: 100%;
+    height: 29.6px;
+    background: #4bb433;
+}
+div.header-top{
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+}
+div.header-top p{
+    height: 29.6px;
+    flex: 1;
+    margin: 0 15px;
+    font:14px 微软雅黑;
+    color:#fff;
+    line-height: 29.6px;
+}
+div.header-top p:nth-child(2){
+    text-align: right;
+}
+
+div.header-top p:nth-child(2) span{
+    width: 20px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+}
+div.header-top p:nth-child(2) span img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    left: -5px;
+}
+/*页眉 */
+.nav-top{
+    width: 1170px;
+    height: 71px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-top>a{
+    width: 230px;
+    height: 65.55px;
+    padding: 3px 15px;
+}
+.nav-top>a>img{
+    width: 134px;
+    height: 43.55px;
+    padding: 8px;
+}
+.nav-top ul{
+    display: flex;
+}
+
+.nav-top ul li{
+    line-height: 71px;
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent;
+}
+.nav-top ul li a{
+    padding: 24px;
+    color: #000;
+    font:18px 微软雅黑;
+    box-sizing: border-box;  
+}
+.nav-top ul li:hover{
+    border-bottom: 3px solid #4bb433;
+}
+.nav-top ul li a:hover{
+    color: #4bb433;  
+}
+.nav-top-bg img{
+    width: 100%;
+    height: 300.8px;
+}
+
+.con-us{
+    width: 1140px;
+    height: 574.3px;
+    padding: 75.9px 15px;
+    margin: 0 auto;
+}
+
+.titles{
+    width: 1170px;
+    height: 95.2px;
+    margin: 0 auto 23.4px;
+    text-align: center;
+    color: #4bb433;
+}
+.titles h2{
+    font-size: 30px;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.titles span{
+    display: inline-block;
+    height: 40.8px;
+}
+
+.con-us .from{
+    width: 652.5px;
+    height: 425.8px;
+    margin: 40px 0 0;
+    padding: 0 15px 60px;
+    box-sizing: border-box;
+    float: left;
+}
+.from ul{
+    width: 635.55px;
+    height: 124px;
+    margin: 0 -13.05px 10px 0;
+    font-size: 14px;
+    color: #8b8b8b;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.from ul li{
+    width: 287.46px;
+    height: 20px;
+    margin: 0 13.3px 20px 0;
+    padding: 10px 0 10px 15px;
+    border: 1px solid #8b8b8b;
+}
+
+.from ul li span{
+    margin: 0 5px 0 0;
+}
+
+.from ul li span i{
+    color: #ff0000;
+    margin: 0 0 0 2px;
+}
+
+.from ul li input{
+    border: 0px;
+    width: 241px;
+    height: 20px;
+    outline: none;
+    color: #8b8b8b;
+}
+.from ul li div{
+    font-size: 13px;
+    line-height: 40px;
+    color: #ff0000;
+}
+.text-area{
+    width: 605.5px;
+    height: 144.8px;
+    padding: 10px 0 0 15px;
+    color: #8b8b8b;
+    border: 1px solid #8b8b8b;
+}
+
+.text-area span i{
+    color: #ff0000;
+}
+
+.text-area textarea {
+    width: 605.5px;
+    height: 120px;
+    border: 0px;
+    outline: none;
+    color: #8b8b8b;
+}
+.from button{
+    width: 195.75px;
+    height: 45px;
+    margin: 30px 0 0;
+    background: #f1f3f2;
+    color: #333;
+    font-size: 18px;
+    border: 0px;
+    border-radius: 20px;
+}
+
+.from button:hover{
+    background: #4bb433;
+    color: #fff;
+}
+
+.from-address{
+    width: 457.5px;
+    height: 260px;
+    padding: 70px 15px 0;
+    float: right;
+}
+
+.from-address p span:nth-child(1)::before{
+    content: "";
+    width: 26px;
+    height: 30px;
+    padding: 0 34.7px 0 0;
+    background: url(../img/index/信息.png) no-repeat 0 0;
+    background-size: 26px;
+}
+.from-address p span:nth-child(2)::before{
+    content: "";
+    width: 26px;
+    height: 30px;
+    padding: 0 34.7px 0 0;
+    background: url(../img/index/电话.png) no-repeat 0 0;
+    background-size: 26px;
+}
+.from-address p span:nth-child(3)::before{
+    content: "";
+    width: 26px;
+    height: 30px;
+    padding: 0 34.7px 0 0;
+    background: url(../img/index/家.png) no-repeat 0 0;
+    background-size: 26px;
+}
+.from-address p span:nth-child(4)::before{
+    content: "";
+    width: 26px;
+    height: 30px;
+    padding: 0 34.7px 0 0;
+    background: url(../img/index/地球.png) no-repeat 0 0;
+    background-size: 26px;
+}
+
+
+.from-address p{
+    width: 457px;
+    height: 60px;
+    line-height: 60px;
+    color: #666;
+    font: 14px 微软雅黑;
+    padding: 0 0 0 22.8px;
+}
+.con-footer{
+    position: relative;
+    width: 100%;
+    height: 496px;
+}
+.con-footer .con-footer-search{
+    width: 264.7px;
+    height: 38px;
+    padding: 20px;
+}
+
+.con-footer .con-footer-search input:nth-child(1){
+    width: 156px;
+    height: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+    border: 0px;
+    outline: none;
+}
+.con-footer .con-footer-search input:nth-child(2){
+    width: 56px;
+    height: 35px;
+    background: #efefef;
+    display: inline-block;
+    border-color: #ffffff80;
+}
+.con-footer .con-footer-search input:nth-child(2):hover{
+    background: #8b8b8b;
+}
+.footer-bg{
+    position: absolute;
+    bottom: 0;
+    width: 146px;
+    height: 40px;
+    background: #ffffff80;
+    padding: 0 10px;
+}
+.footer-bg img{
+    width: 80px;
+    height: 30px;
+    padding: 5px;
+    float: left;
+}
+.footer-bg p{
+    width: 56px;
+    height: 40px;
+    float: left;
+    color: #888;
+    font: 14px 微软雅黑;
+    line-height: 40px;
+}
+/* 页脚 */
+hr{
+    border:1px solid;
+    color: #4bb433;
+}
+.index-bg01{
+    background: url(../img/index/bg01.jpg);
+}
+.row{
+    width: 1446px;
+    height: 273.33px;
+    margin: 0 auto;
+    text-align: center
+}
+.row a .top{
+    display:block;
+    width: 40px;
+    height: 40px;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    background: #4bb433;
+    margin: 0 auto;
+}
+.row .row-nav{
+    width: 952.9px;
+    height: 113.33px;
+    display: flex;
+    justify-content: center;
+    margin: 22px auto 10px;
+    padding: 0 15px;
+}
+
+.row .row-nav li{
+    width: 113.33px;
+}
+
+.row .row-nav li a{
+    width: 113.33px;
+    height: 25.6px;
+    display: block;
+    margin-top: 44px;
+    font:18px 微软雅黑;
+    color: #333;
+}
+
+.row .row-nav li a:hover{
+    color: #4bb433;
+}
+
+.row .row-nav li a .wx{
+    width: 113.33px;
+    height: 113.33px;
+    margin-top: -44px;
+}
+
+.row p{
+    font: 14px 微软雅黑;
+    color: #666;
+    margin-bottom: 15px;
+}

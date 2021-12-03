@@ -1,0 +1,185 @@
+body>.container{
+	padding: 1px;
+	width: 100%;
+	height: 100%;
+}
+.headimg{
+	margin: 0 auto;
+	height: 400px;
+	width:1521px;
+	background-color: #fff;
+}
+.headimg>img{
+	width: 1521px;
+}
+.wrap{
+	width: 100%;
+	height: 1820px;
+	background-color: #fff;
+}
+.shopDecoration{
+	margin: 0 auto;
+	width: 1522px;
+	height: 220px;
+	text-align: center;
+	background-color: #fff;
+}
+.shopDecoration>.english{
+	height: 60px;
+	font-size: 35px;
+	font-weight: 600;
+}
+.shopDecoration>.chinese{
+	height: 35px;
+}
+.shopDecoration>.msg{
+	font-size: 13px;
+	padding-bottom: 10px;
+	width: 640px;
+}
+
+.shopDecoration>.shopbtn{
+	width: 560px;
+	height: 60px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.shopDecoration>.shopbtn>.btn{
+	font-size: 15px;
+	width: 90px;
+	height: 35px;
+	border:1px solid #ccc;
+	border-radius: 40px;
+	line-height: 35px;
+}
+.shopgoods{
+	position: relative;
+	margin: 0 auto;
+	width: 1522px;
+	height: 1070px;
+	padding-top: 20px;
+	background-color: #fff;
+}
+.shopgoods>.shopbox{
+	margin: 0px auto;
+	width: 1158px;
+	height: 1070px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	/* display: none; */
+	
+}
+.shopgoods>.shopbox>.shopgood{
+	width: 282px;
+	height: 350px;
+	position: relative;
+	text-align: center;
+	color: #000000;
+}
+.shopgoods>.shopbox>.shopgood>img{
+	width: 282px;
+	height: 282px;
+}
+.shopgoods>.shopbox>.shopgood>.picture2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.shopgoods>.selectbox{
+	position: absolute;
+	top: 19px;
+	left: 0px;
+	right: 0px;
+	margin: 0px auto;
+	width: 1158px;
+	height: 1070px;
+	display: flex;
+	justify-content: start;
+	/* display: none; */
+}
+.shopgoods>.selectbox>.shopgood{
+	width: 282px;
+	height: 350px;
+	margin-left: 5px;
+	position: relative;
+	text-align: center;
+}
+
+.shopgoods>.selectbox>.shopgood>img{
+	width: 282px;
+	height: 282px;
+}
+.shopgoods>.selectbox>.shopgood>.picture2{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+.footerbox{
+	height: 250px;
+	width: 100%;
+	background-color: #fff;
+}
+.footerbox>.footer{
+	background-color: #F5F5F5;
+	margin: 0 auto;
+	width:1200px;
+	height: 250px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.footerbox>.footer>.contentUs{
+	padding-top: 50px;
+	text-align: center;
+	width: 386px;
+	height:200px;
+	background-color: #F0F0F0;
+}
+.footerbox>.footer>.wechat{
+	padding-top: 50px;
+	text-align: center;
+	width: 386px;
+	height:200px;
+	background-color: #F0F0F0;
+	display: flex;
+	justify-content: center;
+}
+.footerbox>.footer>.contentUs>p{
+	width: 100%;
+	padding-bottom: 5px;
+	font-size: 14px;
+	color: rgba(90,90,90,1);
+}
+.footerbox>.footer>.contentUs>.icons{
+	padding-top: 5px;
+	width: 150px;
+	margin-left: 115px;
+	display: flex;
+	justify-content: space-between;
+}
+.footerbox>.footer>.contentUs>.icons>.icon{
+	width: 32px;
+	height: 32px;
+	overflow: hidden;
+}
+.footerbox>.footer>.contentUs>.icons>.icon>.one{
+	margin-top: -96px;
+	margin-left: -64px;
+}
+.footerbox>.footer>.contentUs>.icons>.icon>.two{
+	margin-top: -96px;
+	margin-left: -32px;
+}
+.footerbox>.footer>.contentUs>.icons>.icon>.three{
+	margin-top: -96px;
+	margin-left: -96px;
+}
+.footerbox>.footer>.contentUs>.icons>.icon>.four{
+	margin-top: -96px;
+	margin-left: -160px;
+}

@@ -1,0 +1,137 @@
+.wrap{
+	height: 1000px;
+}
+.wrap>.goodsCar{
+	margin: 0 auto;
+	width: 1200px;
+	height: 600px;
+}
+.wrap>.goodsCar>.car_selectAll{
+	width: 1150px;
+	padding: 25px;
+	font-size: 18px;
+	border-bottom: 1px solid #ccc;
+	height: 25px;
+	margin: 0px auto;
+	line-height: 25px;
+}
+.wrap>.goodsCar>.car_selectAll>input{
+	width: 18px;
+	height: 18px;
+	margin: 6px;
+}
+
+.carcontainer{
+	margin: 0 auto;
+	width: 1200px;
+	display: grid;
+	grid-row-gap: 5px;
+	grid-template-columns: 15% 20% 10% 10% 25% 10% 10%;
+}
+.goodcard{
+	margin: 0 auto;
+	width: 1200px;
+	display: grid;
+	grid-row-gap: 5px;
+	grid-template-columns: 15% 20% 10% 10% 25% 10% 10%;
+}
+.item{
+	border-bottom: 1px solid #CCCCCC;
+}
+.item-1{
+	padding: 10px;
+	background-color: #EAE8E8;
+	
+}
+.item-2{
+	padding: 10px;
+	text-align: center;
+	background-color: #EAE8E8;
+}
+.item-3{
+	padding: 15px;
+}
+.item-3 input{
+	float: left;
+	color: #29A194;
+}
+.item-3 span{
+	text-align: center;
+	float: right;
+	display: block;
+	width: 105px;
+	height: 80px;
+	border: 1px solid #000;
+}
+.item-3 span>img{
+	margin-top: 9px;
+	width: 90px;
+}
+.name p{
+	width: 250px;
+}
+.name{
+	padding: 30px;
+}
+.price{
+	text-align: center;
+	line-height: 120px;
+}
+.item-4{
+	display: grid;
+	grid-template-columns: 20px 30px 20px;
+	grid-template-rows: 25px;
+	align-content: center;
+	justify-content: center;
+	padding: 15px;
+}
+.item-4 div{
+	text-align: center;
+	/* border: 1px solid #000000; */
+}
+.item-4>p{
+	text-align: center;
+}
+.sum{
+	text-align: center;
+	line-height: 120px;
+	color:#29A194;
+}
+.item-5 {
+	padding: 10px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.foot{
+	margin: 15px auto;
+	width: 1200px;
+	display: grid;
+	grid-template-columns: 8% 60% 10% 12% 10%;
+	grid-template-rows: 50px;
+	background-color: #EAE8E8;
+}
+.a{
+	line-height: 50px;
+}
+.select{
+	text-align: center;
+	font-size: 12px;
+	line-height: 50px;
+}
+.select span{
+	color: #29A194;
+}
+.sum-price{
+	font-size: 18px;
+	color: #29A194;
+}
+.settle{
+	color: #fff;
+	background-color: #29A194;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+}
+.settle>a{
+	color: #fff;
+}

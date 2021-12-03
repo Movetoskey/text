@@ -1,0 +1,289 @@
+			.headCon{
+				height: 150px;
+				/* background-color: #00ff00; */
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				position: relative;
+			}
+			.orContent{
+				width: 1148px;
+				height: 1200px;
+				/* background: #00ffff; */
+				margin: 0 auto;
+				display: flex;
+			}
+			.orContent>.left{
+				width: 264px;
+				height: 666px;
+				border: 1px solid rgb(220, 220, 220);
+				
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: space-evenly;
+			}
+			.orContent>.left>div{
+				width: 100%;
+				height: 300px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+			.orContent>.left>div>img{
+				width: 134px;
+				height: 134px;
+				border-radius: 67px;
+			}
+			.orContent>.left>div>p{
+				font-size: 18px;
+			}
+			.orContent>.left>div>div{
+				width: 103px;
+				height: 34px;
+				border: 1px solid gray;
+				background: rgb(238, 238, 238);
+				text-align: center;
+				line-height: 34px;
+				color: rgb(76, 76, 76);
+			}
+			.orContent>.left>div>div>a{
+				color: #000000;
+			}
+			.orContent>.left>ul{
+				width: 100%;
+				height:366px;
+				/* background: #55aaff; */
+				display: flex;
+				flex-direction: column;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+			/* 选中样式 */
+			.orContent>.left>ul>li>.ccolor{
+				color: red;
+			}
+			.orContent>.left>ul>.xinxi{
+				position: relative;
+			}
+			/* 个人信息 */
+			.orContent>.left>ul>.xinxi>div{
+				position: absolute;
+				width: 882px;
+				height: 1200px;
+				left: 378px;
+				top: -323px;
+				flex-direction: column;
+				align-items: center;
+				/* 同时设置隐藏和flex布局 */
+				/* display: flex; */
+				display: none;
+			}
+		
+			.orContent>.left>ul>li>a:hover{
+				color: red;
+			}
+			.orContent>.left>ul>.xinxi>div>div>.xinxi_top{
+				width: 856px;
+				height: 500px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+			}
+			.xinxi_top>.baocun{
+				display: block;
+				height: 30px;
+				width: 60px;
+				background: red;
+				margin-left: 200px;
+				text-align: center;
+				line-height: 30px;
+			}
+			.xinxi_top>div{
+				width: 450px;
+				height: 420px;
+				display: flex;
+			}
+			.xinxi_top>p{
+				text-align: center;
+				
+				width: 112px;
+				height: 34px;
+				font-size: 18px;
+				border-bottom: 1px solid #d2d2d2;
+				border-right: 1px solid #d2d2d2;
+				color: #fb0000;
+			}
+			.xinxi_top .left{
+				width: 100px;
+				height: 420px;
+				float: left;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+			}
+			.xinxi_top .right{
+				width: 305px;
+				height: 420px;
+				margin-left: 40px;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-around;
+			}
+			.xinxi_top .right>div input{
+				outline: none;
+				border: 0px;
+				width: 200px;
+				height: 30px;
+				font-size: 18px;
+			}
+			.xinxi_top .right>div section{
+				font-size: 18px;
+			}
+			.orContent>.left>ul>.xinxi>div>a{
+				display: block;
+				width: 90px;
+				height: 30px;
+				background: #fb0000;;
+			}
+			
+			/* 我的订单 */
+			.orContent>.right{
+				width: 883px;
+				height: 1200px;
+				/* background: #0000FF; */
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				/* display: none; */
+			}
+			.orContent>.right>ul{
+				width: 100%;
+				height: 50px;
+				/* background: #000000; */
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+			.orContent .right>ul>li{
+				color: #4c4c4c;
+				font-size: 18px;
+			}
+			.orContent .right>ul>.all{
+				color: #fb0000;
+			}
+			
+			select{
+				width: 98px;
+				height: 26px;
+			}
+			
+			.orContent>.right>div{
+				height: 100%;
+				width: 100%;
+				/* background: #55aa00; */
+				display: flex;
+				flex-direction: column;
+				justify-content: space-evenly;
+			}
+			.orContent>.right>div>ul{
+				width: 100%;
+				height: 200px;
+				/* background: #5555ff; */
+			}
+			.orContent>.right .time{
+				width: 882px;
+				height: 40px;
+				/* background: #55ffff; */
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				border-top: 1px solid black;
+				border-bottom: 1px solid black;
+			}
+			.orContent>.right .time>div{
+				margin-left: 10px;
+			}
+			.orContent>.right .time>a{
+				display: block;
+				width: 25px;
+				height: 25px;
+				background: url(../images/index/sprite.png) no-repeat -687px 0px;
+			}
+			.orContent>.right .shop{
+				width: 882px;
+				height: 150px;
+				/* background:#55557f; */
+				display: flex;
+				align-items: center;
+			}
+			/* 我的订单 */
+			.shop .pic1{
+				width: 150px;
+				height: 150px;
+				background:url(../images/order/order_pic_03.jpg) no-repeat center;
+			}
+			.shop .miaoshu{
+				margin-left: 20px;
+				width: 600px;
+				height: 60px;
+			/* 	background: #ff55ff; */
+				display: flex;
+				justify-content: space-evenly;
+			}
+			.shop .miaoshu>div{
+				width: 100px;
+				height: 60px;
+				/* background: #ffc530; */
+				display: flex;
+				flex-direction: column;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+			.miaoshu .name>p{
+				font-size: 14px;
+				color: #4c4c4c;
+			}
+			.miaoshu .name>span{
+				display: block;
+				font-size: 14px;
+				color: #999;
+			}
+			.miaoshu .jiage>span{
+				font-size: 14px;
+				color: #4c4c4c;
+			}
+			.miaoshu .num>span{
+				font-size: 14px;
+				color: #4c4c4c;
+			}
+			.miaoshu .lianxi a{
+				font-size: 14px;
+				color: #4c4c4c;
+			}
+			.miaoshu .xiangqing a{
+				font-size: 14px;
+				color: #4c4c4c;
+			}
+			.orContent>.right>ol{
+				width: 100%;
+				height: 80px;
+				/* background: #ffcc14; */
+				display: flex;
+				justify-content: space-evenly;
+				align-items: center;
+			}
+			.orContent>.right>ol>li{
+				width: 28px;
+				height: 28px;
+				text-align: center;
+				line-height: 28px;
+				font-family: "微软雅黑", "宋体", "黑体";
+				font-weight: normal;
+			}
+			.orContent>.right>ol>li.active{
+				background: red;
+			}
+			
+			

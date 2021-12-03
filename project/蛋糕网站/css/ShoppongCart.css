@@ -1,0 +1,388 @@
+.headCon{
+	height: 150px;
+}
+
+.headCon .headCon_one .gwc{
+	color: white;
+}
+
+.headCon_two>p{
+	width: 120px;
+	height: 64px;
+	text-align: center;
+	line-height: 64px;
+	margin-left: -306px;
+	font-size: 24px;
+	color: #4c4c4c;
+}
+
+.headCon_two>div{
+	width: 600px;
+	height: 70px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.headCon_two .confirm,.pay{
+	text-align: center;
+}
+
+.headCon_two .finish{
+	text-align: right;
+}
+
+.headCon_two .confirm,.pay,.finish>p{
+	color: #999;
+}
+
+.headCon_two .mine{
+	width: 96px;
+	height: 63px;
+	/* background: #005500; */
+}
+
+.headCon_two .mine>p{
+	color: #fb0000;
+}
+
+.headCon_two .confirm{
+	width: 156px;
+	height: 63px;
+}
+
+.headCon_two .pay{
+	width: 156px;
+	height: 63px;
+}
+
+.headCon_two .finish{
+	width: 96px;
+	height: 63px;
+}
+	
+.myshop{
+	width: 1160px;
+	height: 911px;
+	margin: 0 auto;
+}
+
+.myshop .mineshop{
+	width: 1160px;
+	/* background: #005500; */
+	display: flex;
+	justify-content: flex-start;
+}
+
+.myshop .mineshop>div{
+	width: 158px;
+	height: 50px;
+/* 	background: #0000FF; */
+    font-size: 24px;
+    color: #fb0000;
+}
+
+.myshop .mineshop>div>span{
+	display: block;
+	height: 3px;
+	width: 128px;
+	background: #FB0000;
+}
+
+.myshop .mineshop>p{
+	width: 110px;
+	height: 24px;
+	font-size: 24px;
+	color: #4c4c4c;	
+}
+
+.myshop .shopGrid{
+	width: 1160px;
+	height:900px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.shopGrid .selectAll{
+	height: 50px;
+	width: 1160px;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.shopGrid .selectAll .list_chk{
+	width: 80px;
+}
+
+.shopGrid .selectAll .list_con{
+	width: 312px;
+	height: 50px;
+}
+
+.shopGrid .selectAll .list_info{
+	width: 252px;
+	height: 50px;
+}
+
+.shopGrid .selectAll .list_price{
+	width: 130px;
+	height: 50px;
+}
+
+.shopGrid .selectAll .list_amount{
+	width: 120px;
+	height: 50px;
+}
+
+.shopGrid .selectAll .list_sum{
+	width: 120px;
+	height: 50px;
+}
+
+.shopGrid .selectAll .list_op{
+	width: 164px;
+	height: 50px;
+}
+
+.shopGrid .selectAll>div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.shopGrid .selectAll .list_chk{
+	justify-content: flex-start;
+}
+
+.shopGrid .dianpu1{
+	width: 1160px;
+	height: 413px;
+	/* background: #008000; */
+}
+
+.shopGrid .dianpu1 .orderList{
+	width: 1160px;
+	height: 130px;
+	/* background: #0000FF; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.shopGrid .dianpu1 .orderList .select{
+	width: 50px;
+	height: 130px;
+	/* background: #0085FB; */
+	line-height: 130px;
+}
+
+.shopGrid .dianpu1 .orderList .listCon{
+	width: 342px;
+	height: 130px;
+/* 	background: #00ff7f; */
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+
+.shopGrid .dianpu1 .orderList .listCon>a>img{
+	width: 90px;
+	height: 90px;
+}
+
+.shopGrid .dianpu1 .orderList .listCon>div{
+	margin-left: 20px;
+}
+
+.shopGrid .dianpu1 .orderList .listInfo{
+	width: 252px;
+	height: 130px;
+	/* background: #aaff00; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.shopGrid .dianpu1 .orderList .listPrice{
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	line-height: 130px;
+}
+
+.shopGrid .dianpu1 .orderList .listNum{
+	width: 130px;
+	height: 130px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.shopGrid .dianpu1 .orderList .listNum button{
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	border: none;
+	text-align: center;
+	line-height: 22px;
+}
+
+.shopGrid .dianpu1 .orderList .listNum input{
+	width: 20px;
+	text-align: center;
+}
+
+.shopGrid .dianpu1 .orderList .listNum button:hover{
+	color: #fb0000;
+}
+
+.shopGrid .dianpu1 .orderList .listSum{
+	width: 120px;
+	height: 130px;
+	/* background: #ffff00; */
+	color: red;
+	text-align: center;
+	line-height: 130px;
+}
+
+.shopGrid .dianpu1 .orderList .listOp{
+	width: 164px;
+	height: 130px;
+/* 	background: #ffaa7f; */
+	text-align: center;
+	line-height: 130px;
+}
+
+.shopGrid .dianpu2{
+	width: 1160px;
+	height: 300px;
+	/* background: #ffaaff; */
+}
+
+.shopGrid .dianpu2 .orderList{
+	width: 1160px;
+	height: 130px;
+	/* background: #0000FF; */
+	display: flex;
+	justify-content: space-between;
+}
+
+.shopGrid .dianpu2 .orderList .select{
+	width: 50px;
+	height: 130px;
+	line-height: 130px;
+}
+
+.shopGrid .dianpu2 .orderList .listCon{
+	width: 342px;
+	height: 130px;
+	display: flex;
+	justify-content:flex-start;
+	align-items: center;
+}
+
+.shopGrid .dianpu2 .orderList .listCon>a>img{
+	width: 90px;
+	height: 90px;
+}
+
+.shopGrid .dianpu2 .orderList .listCon>div{
+	margin-left: 20px;
+}
+
+.shopGrid .dianpu2 .orderList .listInfo{
+	width: 252px;
+	height: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.shopGrid .dianpu2 .orderList .listPrice{
+	width: 130px;
+	height: 130px;
+	text-align: center;
+	line-height: 130px;
+}
+
+.shopGrid .dianpu2 .orderList .listNum{
+	width: 130px;
+	height: 130px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.shopGrid .dianpu2 .orderList .listNum button{
+	width: 22px;
+	height: 22px;
+	border-radius: 50%;
+	border: none;
+	text-align: center;
+	line-height: 22px;
+}
+
+.shopGrid .dianpu2 .orderList .listNum input{
+	width: 20px;
+	text-align: center;
+}
+
+.shopGrid .dianpu2 .orderList .listNum button:hover{
+	color: red;
+}
+
+.shopGrid .dianpu2 .orderList .listSum{
+	width: 120px;
+	height: 130px;
+	text-align: center;
+	color: red;
+	line-height: 130px;
+}
+
+.shopGrid .dianpu2 .orderList .listOp{
+	width: 164px;
+	height: 130px;
+	text-align: center;
+	line-height: 130px;
+}
+
+.jiesuan{
+	width: 1160px;
+	height: 50px;
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	bottom: 10px;
+	left: 300px;
+}
+
+.jiesuan>div{
+	width: 350px;
+	height: 50px;
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.jiesuan>div>div{
+	width: 110px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.jiesuan .piece .piece_num,.total_text{
+	color: #fb0000;
+}
+
+.jiesuan .calBtn{
+	cursor: pointer;
+	width: 120px;
+	height: 50px;
+	color: #fff;
+	background: #df5353;
+	font-size: 22px;
+	letter-spacing: 5px;
+	line-height: 50px;
+	text-align: center;
+	border-radius: 8px;
+}

@@ -1,0 +1,24 @@
+.newcontainer{
+	width: 1200px;
+	margin: 0 auto;
+	text-align: center;
+}
+.newcontainer>h3{
+	width: 700px;
+	margin: 0 auto;
+	text-align: left;
+}
+.newcontainer>img{
+	width: 700px;
+	margin: 15px auto;
+}
+.newcontainer>p{
+	width: 700px;
+	height: 300px;
+	text-align: left;
+}
+.newcontainer>p.data{
+	height: 30px;
+	line-height: 40px;
+	font-size: 12px;
+}

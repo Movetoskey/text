@@ -1,0 +1,282 @@
+.wrap{
+	/* height: 2250px; */
+}
+.details{
+	position: relative;
+	margin: 50px auto;
+	width: 1200px;
+	height: 600px;
+}
+.details>.left{
+	position: relative;
+	height: 600px;
+}
+.details>.left>.img{
+	display: flex;
+	position: relative;
+}
+.details>.left>.img>.picture{
+	width:714px;
+	height: 476px;
+	position: relative;
+}
+.details>.left>.img>.picture>img{
+	width: 100%;
+}
+.details>.left>.img>.picture>.mask{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	display: none;
+	width: 200px;
+	height: 200px;
+	background: rgba(200,200,200,0.2);
+}
+.details>.left>.img>.resize{
+	position: relative;
+	width: 430px;
+	height: 430px;
+	overflow: hidden;
+	display: none;
+	z-index: 3000;
+}
+.details>.left>.img>.resize>img{
+	width:1428px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+
+.details>.left>ul{
+	display: flex;
+	position: absolute;
+	bottom: 25px;
+}
+.details>.left>ul>li{
+	margin-left: 10px;
+}
+.details>.left>ul>li>img{
+	width: 120px;
+}
+.details>.right{
+	width: 404px;
+	height: 500px;
+	position: absolute;
+	top: 50px;
+	left: 760px;
+}
+.details>.right>.goodname{
+	height: 35px;
+	font-size: 17px;
+}
+.details>.right>.goodsprice{
+	font-size: 18px;
+	height: 35px;
+	line-height: 35px;
+	padding-bottom: 30px;
+}
+
+.details>.right>.msg{
+	height: 20px;
+}
+.details>.right>hr{
+	width: 80px;
+}
+.addcar{
+	padding-top: 50px;
+	width: 300px;
+	height:50px;
+	display: flex;
+	/* justify-content: space-between; */
+}
+.addcar>.btn{
+	width: 120px;
+	height: 40px;
+	background-color: #000;
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-size: 16px;
+}
+.addcar>.nums{
+	margin-left: 10px;
+	width: 103px;
+	height: 40px;
+	display: flex;
+	border: 1px solid rgba(0,0,0,0.8);
+}
+.addcar>.nums>.reduce{
+	width: 30px;
+	font-size: 30px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+.addcar>.nums>input{
+	width: 40px;
+	height: 40px;
+	font-size: 20px;
+	border: 0px;
+	border-left: 1px solid rgba(0,0,0,0.8);
+	border-right: 1px solid rgba(0,0,0,0.8);
+}
+.addcar>.nums>.add{
+	width: 30px;
+	height: 40px;
+	font-size: 30px;
+	line-height: 40px;
+	text-align: center;
+}
+.detailTab{
+	width: 1200px;
+	/* height: 800px; */
+	margin: 0 auto;
+}
+ul.tab{
+	margin: 0 auto;
+	border-top: 1px solid #ccc;
+	width: 1200px;
+	height: 40px;
+	display: flex;
+	justify-content: start;
+}
+.tab>li{
+	margin-left: 20px;
+	width: 100px;
+	height: 100%;
+	font-size: 18px;
+	color: rgba(150,150,150,1);
+	font-weight: 600;
+	line-height: 40px;
+	text-align: center;
+	border-top: 5px solid transparent;
+}
+.tab>li:first-child{
+	margin-left: 0px;
+}
+.tab>li.active{
+	border-top: 5px solid rgba(50,50,50,0.7);
+	color: rgba(50,50,50,0.7);
+}
+.tab>li.activeenter{
+	border-top:5px solid rgba(50,50,50,1);
+	color:rgba(50,50,50,1)
+}
+.describe{
+	margin-bottom: 20px;
+}
+.describe>img{
+	margin-top: 20px;
+	width: 1200px;
+}
+.othermsg{
+	margin-top: 20px;
+	display: none;
+	margin-bottom: 20px;
+}
+.othermsg>.othersize{
+	width: 1200px;
+	height: 70px;
+	line-height: 70px;
+	display: flex;
+	border-top: 1px solid #ccc;
+}
+.othermsg>.othersize>p{
+	font-size: 18px;
+	color: rgba(100,100,100,0.7);
+	font-weight: 600;
+}
+.othermsg>.othersize>span{
+	padding-left: 40px;
+	font-size: 18px;
+	color: rgba(100,100,100,1);
+}
+.othermsg>.othersize1>p{
+	width: 1200px;
+	height: 70px;
+	line-height: 70px;
+	display: flex;
+	font-size: 18px;
+	color: rgba(90,90,90,1);
+	font-weight: 600;
+	border-top: 1px solid #ccc;
+}
+.othermsg>.othergood{
+	margin-top: 25px;
+}
+.othermsg>.othergood>.goodsname{
+	font-size: 16px;
+	height: 30px;
+	line-height: 30px;
+}
+.othermsg>.othergood>.goodsprice{
+	font-size: 19px;
+	height: 25px;
+	line-height: 25px;
+}
+.othermsg>.othergood>img{
+	width: 450px;
+}
+.comment{
+	width: 1200px;
+	margin: 0 auto;
+	display: none;
+	margin-bottom: 20px;
+}
+.comment>.historycomment{
+	padding-top: 20px;
+	width: 1200px;
+}
+.comment>.historycomment>p{
+	width: 1200px;
+	font-size: 15px;
+	height: 35px;
+	line-height: 35px;
+	color: rgba(90,90,90,1);
+}
+.comment>.historycomment>.htcomment{
+	width: 1200px;
+	height: 120px;
+	margin-top: 25px;
+	border: 1px solid #ccc;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+.comment>.historycomment>.htcomment>.commentmsg{
+	height: 110px;
+	margin-left: 15px;
+}
+.comment>.historycomment>.htcomment>.commentmsg>p{
+	height: 40px;
+	line-height: 40px;
+}
+.comment>.historycomment>.htcomment>.commentmsg>.msg{
+	font-size: 15px;
+}
+.comment>.addcomment{
+	width: 1200px;
+	margin: 0 auto;
+}
+.comment>.addcomment>.adds{
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	color: rgba(90,90,90,1);
+}
+.comment>.addcomment>.yourcomment{
+	width: 100%;
+}
+.comment>.addcomment>.yourcomment>textarea{
+	width: 100%;
+	height: 80px;
+	font-size: 16px;
+}
+.comment>.addcomment>.yourcomment>.btn{
+	width: 120px;
+	height: 35px;
+	line-height: 35px;
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+}

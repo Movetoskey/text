@@ -1,0 +1,132 @@
+.settlemsg{
+	width: 1200px;
+	margin: 0 auto;
+}
+.settlemsg>h3{
+	height: 40px;
+	line-height: 40px;
+}
+.settlemsg>p{
+	height: 25px;
+	line-height: 25px;
+	font-size: 15px;
+}
+.settletitle{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+.settletitle>.setselect{
+	width: 500px;
+}
+.settletitle>.settle_price{
+	width: 170px;
+	text-align: center;
+}
+.settletitle>.nums{
+	width: 170px;
+	text-align: center;
+}
+.settletitle>.sum{
+	width: 300px;
+	text-align: center;
+}
+.settlegoods{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+}
+.settlegoods>.settle_good{
+	width: 500px;
+	display: flex;
+}
+.settlegoods>.settle_good>img{
+	width: 100px;
+	padding: 5px;
+}
+
+.settlegoods>.settle_good>p{
+	width: 100px;
+	padding: 5px;
+	height: 67px;
+	line-height: 67px;
+}
+.settlegoods>.settle_price{
+	width: 170px;
+	height: 67px;
+	line-height: 67px;
+	text-align: center;
+}
+.settlegoods>.nums{
+	width: 170px;
+	height: 67px;
+	line-height: 67px;
+	display: flex;
+	justify-content: center;
+}
+.settlegoods>.nums>p{
+	width: 25px;
+	height: 100%;
+	text-align: center;
+}
+
+.settlegoods>.sums{
+	width: 300px;
+	height: 67px;
+	line-height: 67px;
+	text-align: center;
+}
+.settle_foot{
+	margin: 0 auto;
+	width: 1200px;
+	height: 60px;
+}
+.settle_foot>p{
+	width: 1200px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 18px;
+	border-bottom: 1px solid #ccc;
+}
+.payways{
+	width: 1200px;
+	height: 620px;
+	margin:20px auto;
+	font-size: 18px;
+}
+.payways>div{
+	width: 1200px;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #ccc;
+}
+.payways>div.address{
+	height: 400px;
+}
+.payways>div.address>input{
+	height: 30px;
+	width: 200px;
+}
+.payways>div.address>select{
+	width: 200px;
+	height: 30px;
+}
+.payways>div.address>textarea{
+	width: 600px;
+	height: 50px;
+}
+.payways>div>span{
+	margin-left: 10px;
+}
+.payways>div>img{
+	margin-left: 10px;
+}
+.payways>.settle_btn{
+	margin-top: 10px;
+	width: 120px;
+	height: 30px;
+	background-color: #000000;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+}

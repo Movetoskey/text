@@ -1,0 +1,204 @@
+.headCon{
+	height: 150px;
+}
+
+.headCon>.headCon_two{
+	justify-content: flex-start;
+	align-items: flex-end;
+}
+
+.headCon>.headCon_two>span{
+	margin-left: 20px;
+	display: block;
+	height: 45px;
+	width: 1px;
+	background: #d2d2d2;
+}
+
+.headCon>.headCon_two>p{
+	margin-left: 20px;
+	font-size: 24px;
+	color: #4c4c4c;
+}
+
+.login_content{
+	width: 1518px;
+	height: 600px;
+	margin: 0 auto;
+	background: url(../images/login/banner06_02.jpg) no-repeat -390px;
+	position: relative;
+}
+
+.login_content>div{
+	width: 670px;
+	height: 510px;
+	background: rgba(255,255,255,0.9);
+	position: absolute;
+	right: 30px;
+	top: 45px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.login_content>div>ul{
+	width: 430px;
+	height: 52px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.login_content>div>ul>li{
+	width: 126px;
+	height: 50px;
+	font-size: 18px;
+	color: #4c4c4c;
+	line-height: 50px;
+	text-align: center;
+}
+
+.login_content>div>ul>.checked{
+	color: #fb0000;
+	border: 1px solid #fb0000;
+}
+
+.login_content>div>ol{
+	width: 430px;
+	height: 100px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+}
+
+
+/* 手机号快捷登录 */
+.login_content>div>.tel_lg{
+	width: 430px;
+	height: 100px;
+	display: none;
+}
+
+.login_content>div>.tel_lg>input{
+	width: 414px;
+	height: 44px;
+	border: 1px solid #d2d2d2;
+	font-size: 14px;
+	color: #999;
+	
+}
+
+.login_content>div>ol>input{
+	width: 414px;
+	height: 44px;
+	border: 1px solid #d2d2d2;
+	font-size: 14px;
+	color: #999;
+}
+
+.login_content .login_three{
+	width: 430px;
+	height: 290px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.login_content .login_three .lgt_one{
+	width: 430px;
+	height: 200px;
+	/* background: #000000; */
+}
+
+.login_content .login_three .lgt_one>a{
+	display: block;
+	width: 428px;
+	height: 44px;
+	background: #fb0000;
+	line-height: 44px;
+	text-align: center;
+	color: #fff;
+	font-size: 18px;
+}
+
+.login_content .login_three .lgt_one>div{
+	display: flex;
+	height: 40px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.login_content .login_three .lgt_one>ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.login_content .login_three .lgt_one>ul>span{
+	display: inline-block;
+	width: 148px;
+	height: 1px;
+	background: #d2d2d2;
+}
+
+.login_content .login_three .ot_lg{
+	width: 430px;
+	height: 60px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.login_content .login_three .ot_lg>a{
+	display: inline-block;
+	width: 40px;
+	height: 70px;
+}
+
+.login_content .login_three .ot_lg .QQ{
+	background: url(../images/index/sprite.png) -716px 0px;
+}
+
+.login_content .login_three .ot_lg .wx{
+	background: url(../images/index/sprite.png) -758px 0px;
+}
+
+.login_content .login_three .ot_lg .wb{
+	background: url(../images/index/sprite.png) -804px 0px;
+}
+
+.yhmtishi{
+	position: absolute;
+	font-size: 16px;
+	color: red;
+	top: 289px;
+	right: 62px;
+	display: none;
+}
+
+.mimatishi{
+	position: absolute;
+	font-size: 16px;
+	color: red;
+	top: 347px;
+	right: 78px;
+	display: none;
+}
+
+.show,.hide{
+	position: absolute;
+	top: 347px;
+	right: 172px;
+}
+.show{
+	width: 30px;
+	height: 20px;
+}
+.hide{
+	width: 30px;
+	height: 25px;
+}
+
+.hide{display: none;}

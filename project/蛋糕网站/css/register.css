@@ -1,0 +1,138 @@
+	.headCon{
+		height: 150px;
+	}
+
+	.headCon>.headCon_two{
+		justify-content: flex-start;
+		align-items: flex-end;
+	}
+
+	.headCon>.headCon_two>span{
+		margin-left: 20px;
+		display: block;
+		height: 45px;
+		width: 1px;
+		background: #d2d2d2;
+	}
+
+	.headCon>.headCon_two>p{
+		margin-left: 20px;
+		font-size: 24px;
+		color: #4c4c4c;
+	}
+
+	.wrap{
+		width:100%;
+		height: 800px;
+		/* position: relative; */
+	}
+	
+	
+	.wrap>.nav{
+		width: 100%;
+		height: 74px;
+		/* 水平阴影位置 垂直阴影位置 模糊距离 颜色 */
+		box-shadow: 4px 6px 3px #aaaaaa;
+	}
+	/* 给个盒子高宽 然后position */
+	.wrap>.nav>.regist{
+		position: absolute;
+		top: 16px;
+		left: 200px;
+		font-weight: 700;
+		color: gray;
+	}
+	.wrap>form{
+		width: 400px;
+		height: 600px;
+	/* 	background: #00FFFF; */
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+	.wrap>form>p{
+		width: 300px;
+		height: 40px;
+		border: 1px solid gray;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+	.wrap>form>p span{
+		/* 字体间距 */
+		letter-spacing: 4px;
+		margin-left: 5px;
+	}
+	
+	.wrap>form>p:nth-child(4) span{
+		width: 120px;
+	}
+	
+	.wrap>form>p input{
+		/* 取消input自带样式 */
+		border: 0px;
+		outline: none;
+		background: none;
+		
+		width: 200px;
+		height: 40px;
+	}
+	.wrap>form>p:last-child{
+		background: red;
+	}
+	.wrap>form>p:last-child>input{
+		margin-left: 50px;
+		color: white;
+	}
+	.wrap>form>div{
+		font-size: 12px;
+	}
+	.wrap>form>div>input{
+		vertical-align: bottom;
+	}
+	
+	
+	.wrap>.show_mess>div{
+		color: red;
+		font-size: 13px;
+		display: none;
+	}
+	.wrap>.show_mess>.username{
+		position: absolute;
+		left: 610px;
+		top: 329px;
+	}
+	.wrap>.show_mess>.psw{
+		position: absolute;
+		left: 610px;
+		top: 420px;
+	}
+	.wrap>.show_mess>.sec_psw{
+		position: absolute;
+		left: 610px;
+		top: 512px;
+	}
+	.wrap>.show_mess>.tel{
+		position: absolute;
+		left: 610px;
+		top: 346px;
+	}
+	.wrap>.show_mess>.sfz{
+		position: absolute;
+		left: 610px;
+		top: 410px;
+	}
+	
+	.wrap>.show_mess>.email{
+		position: absolute;
+		left: 610px;
+		top: 478px;
+	}
+	
+	.wrap>.show_mess>.v_code{
+		position: absolute;
+		left: 610px;
+		top: 610px;
+	}

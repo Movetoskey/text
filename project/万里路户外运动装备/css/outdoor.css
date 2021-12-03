@@ -1,0 +1,266 @@
+*{margin:0;padding:0;}
+li{list-style: none;}
+a{text-decoration: none;}
+
+/* 页眉 */
+div.header{
+    width: 100%;
+    height: 29.6px;
+    background: #4bb433;
+}
+div.header-top{
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+}
+div.header-top p{
+    height: 29.6px;
+    flex: 1;
+    margin: 0 15px;
+    font:14px 微软雅黑;
+    color:#fff;
+    line-height: 29.6px;
+}
+div.header-top p:nth-child(2){
+    text-align: right;
+}
+
+div.header-top p:nth-child(2) span{
+    width: 20px;
+    height: 24px;
+    display: inline-block;
+    position: relative;
+}
+div.header-top p:nth-child(2) span img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 7px;
+    left: -5px;
+}
+/*页眉 */
+.nav-top{
+    width: 1170px;
+    height: 71px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-top>a{
+    width: 230px;
+    height: 65.55px;
+    padding: 3px 15px;
+}
+.nav-top>a>img{
+    width: 134px;
+    height: 43.55px;
+    padding: 8px;
+}
+.nav-top ul{
+    display: flex;
+}
+
+.nav-top ul li{
+    line-height: 71px;
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent;
+}
+.nav-top ul li a{
+    padding: 24px;
+    color: #000;
+    font:18px 微软雅黑;
+    box-sizing: border-box;  
+}
+.nav-top ul li:hover{
+    border-bottom: 3px solid #4bb433;
+}
+.nav-top ul li a:hover{
+    color: #4bb433;  
+}
+.outdoor-bg img{
+    width: 100%;
+    height: 300.68px;
+}
+
+/* 页眉导航栏 */
+
+.outdoor-infor{
+    width: 100%;
+    padding: 75.9px;
+}
+
+.titles{
+    width: 1170px;
+    height: 95.2px;
+    margin: 0 auto 23.4px;
+    text-align: center;
+    color: #4bb433;
+}
+.titles h2{
+    font-size: 30px;
+    color: #333;
+    margin: 20px 0 10px;
+}
+
+.titles span{
+    display: inline-block;
+    height: 40.8px;
+}
+.sub-list ul{
+    width: 1140px;
+    height: 56px;
+    margin: 0 auto 10px;
+    padding: 10px 0 15px;
+    display: flex;
+    justify-content: center;
+}
+.sub-list ul li{
+    width: 66px;
+    height: 24px;
+    margin: 0 5px;
+    padding: 8px 30px;
+    color: #000;
+    font: 16px;
+    border: 1px solid #ebebeb;
+    border-radius: 20px;
+}
+.sub-list ul .active{
+    background: #4bb433;
+    color: #fff;
+}
+.sub-list ul li:hover{
+    background: #4bb433;
+    color: #fff;
+}
+.list-title ul li{
+    display: none;
+}
+.list-title ul  #active{
+    display: block;
+}
+
+.out-News{
+    width: 1140px;
+    height: 170.23px;
+    padding: 20px 15px;
+    margin: 0 auto;
+    display: flex;
+}
+.out-News img{
+    width: 250px;
+    height: 169.23px;
+    padding: 0 15px;
+}
+
+.news-conten{
+    width: 825px;
+    height: 116px;
+    padding: 0 15px;
+}
+.news-conten h3{
+    margin: 20px 0 10px;
+}
+
+.news-conten h3 a{
+   width: 216px;
+    height: 24px;
+    font: 18px 微软雅黑;
+    display: inline-block;
+    color: #333;
+    margin: 0 0 0 20px;  
+}
+
+.news-conten h3 a:hover{
+    color: #4bb433;
+}
+.news-conten a{
+    font: 12px 微软雅黑;
+    color: #333;
+    margin: 0 0 0 20px;
+}
+.news-conten p{
+    font: 16px 微软雅黑;
+    color: #666;
+    text-indent: 2em;
+}
+
+.pro-foot{
+    width: 1140px;
+    height: 60px;
+    justify-content: center;
+    margin: 0 auto 10px;
+    display: flex;
+}
+
+.pro-foot li{
+    height: 18px;
+    margin: 30px 2px 0;
+    padding: 4px 9px;
+    color: #000;
+    font: 14px 微软雅黑;
+    border: 1px solid #ebebeb;
+    background: #fafafa;
+}
+
+
+/* 页脚 */
+hr{
+    border:1px solid;
+    color: #4bb433;
+}
+.index-bg01{
+    background: url(../img/index/bg01.jpg);
+}
+.row{
+    width: 1446px;
+    height: 273.33px;
+    margin: 0 auto;
+    text-align: center
+}
+.row a .top{
+    display:block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background: #4bb433;
+    margin: 0 auto;
+}
+.row .row-nav{
+    width: 952.9px;
+    height: 113.33px;
+    display: flex;
+    justify-content: center;
+    margin: 22px auto 10px;
+    padding: 0 15px;
+}
+
+.row .row-nav li{
+    width: 113.33px;
+}
+
+.row .row-nav li a{
+    width: 113.33px;
+    height: 25.6px;
+    display: block;
+    margin-top: 44px;
+    font:18px 微软雅黑;
+    color: #333;
+}
+
+.row .row-nav li a:hover{
+    color: #4bb433;
+}
+
+.row .row-nav li a .wx{
+    width: 113.33px;
+    height: 113.33px;
+    margin-top: -44px;
+}
+
+.row p{
+    font: 14px 微软雅黑;
+    color: #666;
+    margin-bottom: 15px;
+}

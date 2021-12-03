@@ -1,0 +1,98 @@
+.wrap{
+	height: 900px;
+}
+.headerimg{
+	margin: 0 auto;
+	width: 1522px;
+	position: relative;
+}
+.headerimg>img{
+	width: 1522px;
+	
+}
+.headerimg>.headerfont{
+	width: 200px;
+	height: 200px;
+	background-color: #fff;
+	position: absolute;
+	top:78px;
+	left: 661px;
+	border-radius: 100px;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+}
+.headerimg>.headerfont>p{
+	width: 200px;
+}
+.headerimg>.headerfont>.msg{
+	width: 200px;
+	font-size: 11px;
+}
+.headerimg>.headerfont>.msg>a{
+	color: #000000;
+}
+.cantactmsg{
+	margin: 0 auto;
+	width: 1522px;
+	height: 500px;
+}
+.cantactmsg>.cantactbox{
+	padding-top: 50px;
+	width: 1000px;
+	height:400px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+.cantactmsg>.cantactbox>.left{
+	padding-top: 50px;
+	width: 400px;
+	height: 250px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0 auto;
+	/* text-align: center; */
+}
+.cantactmsg>.cantactbox>.left>title{
+	
+	width: 400px;
+	margin: 0 auto;
+	font-family: Oswald;
+	font-size: 24px;
+	color: #333333;
+	display: inline-block;
+	padding: 2px;
+}
+.cantactmsg>.cantactbox>.right{
+	padding-top: 50px;
+	width:600px;
+	height: 330px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+.cantactmsg>.cantactbox>.right>input{
+	width: 550px;
+	height: 35px;
+	color: grey;
+}
+.cantactmsg>.cantactbox>.right>textarea{
+	width: 550px;
+	color: grey;
+}
+.cantactmsg>.cantactbox>.right>.btn{
+	margin-top: 25px;
+	width: 100px;
+	background-color: #29A194;
+	text-align: center;
+	color: #FFF;
+	height: 30px;
+	line-height: 30px;
+}
+.inputerror{
+	display: none;
+	color: red;
+}
